@@ -1,11 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import mountains from './mountains.png';
 
+const MyFirstHomework = () =>{
+  return (
+  <div>
+    <p>My first homework React </p>
+   <img src={mountains} alt="mountains"/>
+    </div> 
+  );
+}
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello world</h1>
+        < MyFirstHomework />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
